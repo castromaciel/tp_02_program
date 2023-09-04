@@ -1,0 +1,13 @@
+ALGORITMO: PROMEDIO
+ENTRADAS: 
+	califcacionLengua: real(+)
+	califcacionCiencias: real(+)
+	califcacionMatematicas: real(+)
+	
+SALIDA:
+	promedio: real(+)
+	
+A1. LEER(califcacionLengua, califcacionCiencias, califcacionMatematicas)
+A2. promedio <- (califcacionLengua + califcacionCiencias + califcacionMatematicas) / 3
+A3. ESCRIBIR(promedio)
+A4.PARAR

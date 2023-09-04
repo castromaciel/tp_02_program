@@ -1,0 +1,11 @@
+Algoritmo: INCREMENTO_DECREMENTO
+Entradas: 
+	incremento, decremento: entero (+)
+Salidas: 
+	incremento, decremento: entero (+)
+	
+A1. LEER(incremento, decremento)
+A2. incremento <- incremento + 1
+A3. decremento <- decremento - 1
+A4. ESCRIBIR(incremento, decremento)
+A5. PARAR

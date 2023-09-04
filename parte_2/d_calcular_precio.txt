@@ -1,0 +1,21 @@
+ALGORITMO CALCULAR_PRECIO
+
+CONSTANTES:
+	RECARGO: 15
+
+ENTRADAS:
+	monto: real(+)
+	descuento: entero
+
+SALIDAS:
+	monto, montoRecargo, montoDescuento: real(+)
+
+A1.LEER(monto, descuento)
+A2.realizar_calculos
+A3.ESCRIBIR(monto, montoRecargo, montoDescuento)
+A4.PARAR
+
+A2. realizar_calculos
+A2.1. montoRecargo <- monto + (monto * 15 / 100)
+A2.2. montoDescuento <- monto + (monto * descuento / 100)
+

@@ -1,0 +1,19 @@
+ALGORITMO: INVIRTIENDO
+ENTRADAS:
+	num1, num2: entero
+	
+SALIDAS
+	num1, num2: entero
+	
+Variables auxiliares:
+	aux: entero
+	
+A1.LEER(num1, num2)
+A2.invertir_valores
+A3.ESCRIBIR(num1, num2)
+A4.PARAR
+
+A2. invertir_valores
+A2.1. aux <- num1
+A2.2. num1 <- num2
+A2.3. num2 <- aux

@@ -1,0 +1,22 @@
+ALGORITMO: VOLUMENES
+
+CONSTANTES:
+	PI = 3.14
+	
+ENTRADAS:
+	altura, radio: real(+)
+
+SALIDAS:
+	volumenCilindro, volumenEsfera: real(+)
+	
+A1.LEER(altura, radio)
+A2.convertir_valores_a_cm
+A3.volumenCilindro <- PI * radio * radio * altura
+A4.volumenEsfera <-(4/3) * PI * radio * radio
+A5.ESCRIBIR(volumenCilindro, volumenEsfera)
+A6.PARAR
+
+
+A2. convertir_valores_a_cm
+A2.1. altura <- altura * 100
+A2.1. radio <- radio / 10
