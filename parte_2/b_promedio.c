@@ -1,9 +1,8 @@
 #include <stdio.h>
 
-int main () {
-  /** 
-   * Inicialización de variables
-  */
+int main()
+{
+  /** Inicialización de variables */
   float calificacionLengua;
   float calificacionCiencias;
   float calificacionMatematicas;

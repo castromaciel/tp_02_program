@@ -1,7 +1,8 @@
 #include <stdio.h>
 #define RECARGO 15
 
-int main () {
+int main()
+{
   /** Inicialización de variables */
   float monto;
   int descuento;
@@ -11,7 +12,7 @@ int main () {
   /** Se piden los datos al usuario */
   printf("Ingrese un monto: ");
   scanf("%f", &monto);
-  
+
   printf("Ingrese un Descuento: ");
   scanf("%d", &descuento);
 
@@ -22,7 +23,6 @@ int main () {
   printf("El precio del producto original es: %.2f", monto);
   printf("\nEl precio del producto con recargo es: %.2f", montoConRecargo);
   printf("\nEl precio del producto con descuento es: %.2f", montoConDescuento);
-
 
   return 0;
 }

@@ -1,6 +1,7 @@
 #include <stdio.h>
 
-int main () {
+int main()
+{
   /** Inicialización de variables */
   int num1, num2, aux;
 

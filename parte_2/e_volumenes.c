@@ -1,14 +1,15 @@
 #include <stdio.h>
 #define PI 3.14
 
-int main () {
+int main()
+{
   /** Inicialización de variables */
   float radio, altura, volumenCilindro, volumenEsfera;
 
   /** Se piden los datos al usuario */
   printf("Ingrese el valor de la altura en 'm': ");
   scanf("%f", &altura);
-  
+
   printf("Ingrese el valor del radio en 'mm': ");
   scanf("%f", &radio);
 
